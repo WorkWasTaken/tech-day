@@ -1,0 +1,28 @@
+* {box-sizing: border-box;
+      margin: 0px;
+      padding: 0;}
+
+body {font-family: arial, sans-serif;
+       background-color: #f8fafc;}
+
+header {display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #0f172a;}
+    
+section {padding: 40px 20px;}
+
+h2 {text-align: center;}
+
+.form-grid {display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;}
+
+input {padding: 12px;
+       border: 1px solid #ccc;
+       border-radius: 6px;
+       width: 100%;}
+
+input:focus {border-color: #2563eb;
+             outline: none;}
